@@ -1,0 +1,57 @@
+/* Fondo general */
+body {
+  background-color: #000; /* negro */
+  color: #fff; /* texto blanco por defecto */
+  font-family: Arial, sans-serif;
+}
+
+/* Card personalizada */
+.card {
+  background-color: #333; /* gris oscuro */
+  color: #fff; /* texto blanco dentro del card */
+  border-radius: 12px;
+}
+
+/* Títulos dentro del card */
+.card h2 {
+  color: #ff8c00; /* naranja para el título */
+}
+
+/* Labels de formulario */
+label {
+  color: #fff;
+}
+
+/* Inputs y textarea */
+input, textarea {
+  background-color: #222; /* gris muy oscuro */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+/* Cambiar placeholder color si quieres */
+::placeholder {
+  color: #aaa;
+}
+
+/* Botón naranja */
+button.btn-primary,
+a.btn-primary {
+  background-color: #ff8c00;
+  border-color: #ff8c00;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+/* Hover botón */
+button.btn-primary:hover,
+a.btn-primary:hover {
+  background-color: #e67600;
+  border-color: #e67600;
+}
+
+.form-text {
+  color: #fff; /* contadores y texto de ayuda en blanco */
+}
